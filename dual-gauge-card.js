@@ -203,7 +203,7 @@ class DualGaugeCard extends HTMLElement {
           <div class="inner-gauge circle-container small-circle">
             <div class="circle"></div>
           </div>
-
+        </div>
 
           <div class="gauge-value gauge-value-outer"></div>
           <div class="gauge-label gauge-label-outer"></div>
@@ -213,7 +213,6 @@ class DualGaugeCard extends HTMLElement {
 
           <div class="gauge-title"></div>
 
-        </div>
       </div>
     `;
 
