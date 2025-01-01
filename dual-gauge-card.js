@@ -274,9 +274,9 @@ class DualGaugeCard extends HTMLElement {
         --outer-angle: 90deg;
         --inner-angle: 90deg;
         --gauge-width: calc(var(--gauge-card-width) / 10.5);
-        --value-font-size: calc(var(--gauge-card-width) / 17);
-        --title-font-size: calc(var(--gauge-card-width) / 14);
-        --label-font-size: calc(var(--gauge-card-width) / 20);
+        --value-font-size: calc(var(--gauge-card-width) / 12);
+        --title-font-size: calc(var(--gauge-card-width) / 10);
+        --label-font-size: calc(var(--gauge-card-width) / 12);
 
         width: var(--gauge-card-width);
         padding: 16px;
@@ -351,7 +351,7 @@ class DualGaugeCard extends HTMLElement {
       }
 
       .gauge-value {
-        margin-bottom:0%;
+        margin-bottom:0% !imporant;
         font-size: var(--value-font-size);
         font-weight: bold;
       }
@@ -363,12 +363,14 @@ class DualGaugeCard extends HTMLElement {
 
       .gauge-value-outer, .gauge-label-outer {
         color: var(--outer-color);
+        text-align: left;
       }
 
 
       .gauge-value-inner, .gauge-label-inner {
         right: 0;
         color: var(--inner-color);
+        text-align: right;
       }
 
 
