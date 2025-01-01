@@ -287,6 +287,7 @@ class DualGaugeCard extends HTMLElement {
       .gauge-dual-card div {
         box-sizing:border-box
       }
+      
       .gauge-dual {
         overflow: hidden;
         width: 100%;
