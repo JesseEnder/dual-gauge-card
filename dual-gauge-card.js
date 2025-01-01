@@ -204,16 +204,15 @@ class DualGaugeCard extends HTMLElement {
             <div class="circle"></div>
           </div>
         </div>
-
-          <div class="gauge-value gauge-value-outer"></div>
-          <div class="gauge-label gauge-label-outer"></div>
-
-          <div class="gauge-value gauge-value-inner"></div>
-          <div class="gauge-label gauge-label-inner"></div>
-
-          <div class="gauge-title"></div>
-
       </div>
+      <div class="gauge-value gauge-value-outer"></div>
+      <div class="gauge-label gauge-label-outer"></div>
+
+      <div class="gauge-value gauge-value-inner"></div>
+      <div class="gauge-label gauge-label-inner"></div>
+
+      <div class="gauge-title"></div>
+
     `;
 
     this.nodes = {
