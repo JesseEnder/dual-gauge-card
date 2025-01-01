@@ -1,10 +1,7 @@
 # Dual gauge card
 
 > [!IMPORTANT]
-> **Looking for new maintainer!**
-> 
-> I can't find the time or inspiration to take care of this project anymore.  
-> So if you'd like to become the new maintainer of this project please let me know via a Pull request!
+> This fork moves the values outside of the gauge area.
 
   
 Two gauges in one, built mostly with CSS.
