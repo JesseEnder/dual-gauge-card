@@ -356,7 +356,6 @@ class DualGaugeCard extends HTMLElement {
       .gauge-value {
         margin-bottom: 0%;
         font-size: var(--value-font-size);
-        font-weight: bold;
       }
 
       .gauge-label {
